@@ -4,10 +4,10 @@ int main(){
 	
 	int n1, n2, s, c;
 	
-	cout<<ingrese un numero mayor <<endl;
+	cout<<"ingrese un numero mayor" <<endl;
 	cin>> n1;
 	
-	cout<<ingrese un numero menor <<endl;
+	cout<<"ingrese un numero menor" <<endl;
 	cin>> n2;
 	
 	s= n1;
@@ -22,6 +22,7 @@ int main(){
 		
 	}
 	
+	cout<<"la division es: "<<endl;
 	cout<< c<<endl;
 	cout<<s;
 	
