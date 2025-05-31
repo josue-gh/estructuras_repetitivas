@@ -3,6 +3,8 @@ using namespace std;
 int main()
 {
 	int n, m;
+	cout<<"los multiplos de un numero"<<endl;
+	
 	
 	cout<<"ingrese un numero "<<endl;
 	cin>> n;
