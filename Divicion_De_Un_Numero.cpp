@@ -24,6 +24,8 @@ int main(){
 	
 	cout<<"la division es: "<<endl;
 	cout<< c<<endl;
+	
+	cout<<"el residuo es: "<<endl;
 	cout<<s;
 	
 	return 0;
