@@ -4,6 +4,8 @@ int main(){
 	
 	int n1, n2, s, c;
 	
+	cout<<"programa de la divison de numero a traves de restas sucesivas"<<endl; 
+	
 	cout<<"ingrese un numero mayor" <<endl;
 	cin>> n1;
 	
