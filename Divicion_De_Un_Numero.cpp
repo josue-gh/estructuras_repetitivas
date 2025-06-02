@@ -30,5 +30,7 @@ int main(){
 	cout<<"el residuo es: "<<endl;
 	cout<<s;
 	
+	cout<<"gracias por su participacion"<<endl;
+	
 	return 0;
 }
