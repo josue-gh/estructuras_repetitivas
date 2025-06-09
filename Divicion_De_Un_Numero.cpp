@@ -12,7 +12,8 @@ int main(){
 	cout<<"ingrese un numero menor" <<endl;
 	cin>> n2;
 	
-	s= n1;
+	if (n1>n1){
+		s= n1;
 	
 	c=0;
 	
@@ -31,6 +32,9 @@ int main(){
 	cout<<s;
 	
 	cout<<"gracias por su participacion"<<endl;
+	} else {
+		cout<<"Numeros no validos";
+	}
 	
 	return 0;
 }
