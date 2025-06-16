@@ -1,16 +1,15 @@
 #include <iostream>
 using namespace std;
 int main(){
-	
-	int  n, num, nm;
+	//Declaracion de variables
+	int  n, num, nummayor;
 	
 	cout<<"bienbenidos a mi programa" <<endl;
-	
+	//ENTRADA
 	cout<<"ingrese la cantidad de numeros"<<endl;
 	cin>> n ;
 	
-	
-	
+	//PROCESO
 	for(int c=1 ; c<=n; c++){
 		
 		cout<<"ingrese un numero" <<endl;
@@ -18,21 +17,22 @@ int main(){
 		
 		if(c==1){
 			
-			nm=num ;
+			nummayor=num ;
 			
 		}else{
 			
-			if(num>nm){
+			if(num>nummayor){
 				
-				nm=num;
+				nummayor=num;
 				
 			}
 		}
 			
 	}
 	
+	//SALIDA
 	cout<<"el numero mayor es:" <<endl;
-	cout<< nm<<endl;
+	cout<< nummayor<<endl;
 	
 	cout<<"gracias por su participacion" <<endl;
 	return 0;
